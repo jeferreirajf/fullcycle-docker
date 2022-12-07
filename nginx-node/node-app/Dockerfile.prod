@@ -1,0 +1,9 @@
+FROM node
+
+RUN mkdir home/node-app
+
+COPY ./app ./home/node-app
+
+ENTRYPOINT [ "node", "./home/node-app/index.js" ]
+
+EXPOSE 3000
