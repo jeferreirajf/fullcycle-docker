@@ -28,3 +28,7 @@ o **nginx** compartilha uma rede com a aplicação **node** que por sua vez comp
 uma rede diferente com o **banco de dados**.
 
 Para mais informações, basta acessar o diretório **`nginx-node`**.
+
+## Quem sou eu
+
+Para acessar mais do meu conteúdo basta ir em: [DoutorWaka](http://doutorwaka.tech/youtube).

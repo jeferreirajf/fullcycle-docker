@@ -10,3 +10,7 @@ Para rodar a aplicação você precisará instalar o **docker**.
 Então, você irá rodar a aplicação com a seguinte linha de comando:
 
 **``docker run jeferreirajf/go-app``**
+
+## Quem sou eu
+
+Para acessar mais do meu conteúdo basta ir em: [DoutorWaka](http://doutorwaka.tech/youtube).
