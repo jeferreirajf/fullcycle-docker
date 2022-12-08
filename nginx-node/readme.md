@@ -16,10 +16,12 @@ o server e gerenciar as rotas foi utilizado ExpressJS. Para gerenciar
 o banco de dados MySQL foi utilizado o Sequelize.
 
 ## Rodando os serviços
-Basta ter o **`docker`** e o **`docker-compose`** instalados e então digitar:
-`docker-compose up --build`
+Você precisa ter o **`docker`** e o **`docker-compose`** instalados e então digitar:
+**`docker-compose up --build`**.
+
 Os serviços irão subir na ordem correta e então basta ir ao browser e 
 acessar a url:
-```localhost:8080```
+
+**```localhost:8080```**
 
 Para acessar mais do meu conteúdo basta ir em: [DoutorWaka](http://doutorwaka.tech/youtube).
