@@ -2,8 +2,8 @@
 
 <p>Essa aplicação sobe três serviços: **nginx**, **node-app** e **mysql-server**.</p>
 
-O **nginx** funciona como um proxy reverso na **porta 80** e transferindo
-as requisições para a aplicação node que por sua vez ouve a **porta 3000**.
+<p>O **nginx** funciona como um proxy reverso na **porta 80** e transferindo
+as requisições para a aplicação node que por sua vez ouve a **porta 3000**.</p>
 
 A aplicação **node-app** ao receber uma requisição, gera um nome de pessoa
 aleatoriamente e então insere o nome gerado no banco de dados do **mysql-server**.
