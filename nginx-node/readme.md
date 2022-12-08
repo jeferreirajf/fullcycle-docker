@@ -1,5 +1,4 @@
 <h1>NGINX->NODEJS->MYSQL APP</h1>
-<hr>
 
 <p>Essa aplicação sobe três serviços: <b>nginx</b>, <b>node-app</b> e <b>mysql-server</b>.</p>
 
@@ -11,12 +10,12 @@ aleatoriamente e então insere o nome gerado no banco de dados do <b>mysql-serve
 Além disso, após a inserção do novo dado, a aplicação também exibe a lista
 de todos os nomes na tela.
 
-#Aplicação Node
+<h2>Aplicação Node</h2>
 A aplicação node foi implementada utilizando Javascript. Para subir
 o server e gerenciar as rotas foi utilizado ExpressJS. Para gerenciar
 o banco de dados MySQL foi utilizado o Sequelize.
 
-#Rodando os serviços
+<h2>Rodando os serviços</h2>
 Basta ter o <b>`docker`</b> e o <b>`docker-compose`</b> instalados e então digitar:
 `docker-compose up --build`
 Os serviços irão subir na ordem correta e então basta ir ao browser e 
