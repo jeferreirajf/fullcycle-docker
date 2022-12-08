@@ -1,6 +1,6 @@
 #NGINX->NODEJS->MYSQL APP
 
-Essa aplicação sobe três serviços: **nginx**, **node-app** e **mysql-server**.
+<p>Essa aplicação sobe três serviços: **nginx**, **node-app** e **mysql-server**.</p>
 
 O **nginx** funciona como um proxy reverso na **porta 80** e transferindo
 as requisições para a aplicação node que por sua vez ouve a **porta 3000**.
@@ -16,7 +16,7 @@ o server e gerenciar as rotas foi utilizado ExpressJS. Para gerenciar
 o banco de dados MySQL foi utilizado o Sequelize.
 
 #Rodando os serviços
-Basta ter o **`#0066FFdocker`** e o **`#0066FFdocker-compose`** instalados e então digitar:
+Basta ter o `#0066FF**docker**` e o `#0066FF**docker-compose**` instalados e então digitar:
 `docker-compose up --build`
 Os serviços irão subir na ordem correta e então basta ir ao browser e 
 acessar a url:
