@@ -1,6 +1,6 @@
 #NGINX->NODEJS->MYSQL APP
 
-<p>Essa aplicação sobe três serviços: **nginx**, **node-app** e **mysql-server**.</p>
+<p>Essa aplicação sobe três serviços: <b>nginx</b>, **node-app** e <b>mysql-server</b>.</p>
 
 <p>O **nginx** funciona como um proxy reverso na **porta 80** e transferindo
 as requisições para a aplicação node que por sua vez ouve a **porta 3000**.</p>
