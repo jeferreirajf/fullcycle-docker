@@ -1,5 +1,15 @@
+FROM golang as builder
+
+RUN go version
+
+COPY ./full-cycle-rocks.go /home/go-app/full-cycle-rocks.go
+
+WORKDIR /home/go-app
+
+RUN go build full-cycle-rocks.go
+
 FROM scratch
 
-COPY full-cycle-rocks .
+COPY --from=builder /home/go-app/full-cycle-rocks full-cycle-rocks
 
-CMD ["./full-cycle-rocks"]
+ENTRYPOINT ["./full-cycle-rocks"]
