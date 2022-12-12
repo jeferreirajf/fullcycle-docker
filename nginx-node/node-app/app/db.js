@@ -43,15 +43,16 @@ export default class Db {
             dbConfig
         );
 
+        this.people = this.sequelize.define(tableName, tableModel, tableOptions);
+        
         this.connect().then(() => {
+            this.people.sync().then(()=>{});
             this.sequelize.sync().then(() => {
                 console.log('People table syncronized successfully!');
             }).catch((error) => {
                 console.error('Unable to sync table : ', error);
             });
-        });
-
-        this.people = this.sequelize.define(tableName, tableModel, tableOptions);
+        });        
     };
 
     /**
